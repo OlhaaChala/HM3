@@ -4,9 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search</title>
 </head>
 <body>
-    
+    <form action="https://fom.in.ua/echo">
+        <fieldset>
+            <legend>Пошук</legend>
+            <p><b>Тип кузова</b></p>
+            <p>
+                <label><input type="radio" name="t" checked>Седан</label>
+                <label><input type="radio" name="t">Універсал</label>
+                <label><input type="radio" name="t">Купе</label>
+                <label><input type="radio" name="t">Мінівен</label>
+                <label><input type="radio" name="t">Пікап</label>
+                <label><input type="radio" name="t">Кабріолет</label>
+            </p>
+            <p><b>Марка авто</b></p>
+            <p>
+                <label><input type="radio" name="m" checked>Audi</label>
+                <label><input type="radio" name="m">BMW</label>
+                <label><input type="radio" name="m">Ford</label>
+                <label><input type="radio" name="m">Honda</label>
+                <label><input type="radio" name="m">Kia</label>
+                <label><input type="radio" name="m">Mazda</label>
+                <label><input type="radio" name="m">Renault</label>
+                <label><input type="radio" name="m">Tesla</label>
+            </p>
+            <p><b>Країна виробник</b></p>
+            <p>
+                <select>
+                    <option value="Китай">Китай</option>
+                    <option value="Японія">Японія</option>
+                    <option value="Німеччина">Німеччина</option>
+                    <option value="Австрія">Австрія</option>
+                    <option value="Корея">Корея</option>
+                    <option value="Словаччина">Словаччина</option>
+                    <option value="США">США</option>
+                </select>
+            </p>
+            <p><b>Ціна</b></p>
+            <p>
+                <label><input type="text" placeholder="Від"></label>
+                <label><input type="text" placeholder="До"></label>
+            </p>
+            <p><b>Рік випуску</b></p>
+            <p>
+                <label><input type="text" placeholder="Від"></label>
+                <label><input type="text" placeholder="До"></label>
+            </p>
+            <p><b>Стан</b></p>
+            <p>
+                <label><input type="checkbox" name="s" checked>Бита</label>
+                <label><input type="checkbox" name="s">Нерозмитнена</label>
+                <label><input type="checkbox" name="s">У кредиті</label>
+                <label><input type="checkbox" name="s">Нова</label>
+                <label><input type="checkbox" name="s">З пробігом</label>
+                <label><input type="checkbox" name="s">Під пригон</label>
+            </p>
+            <p><b>Тип палева</b></p>
+            <p>
+                <label><input type="radio" name="f" checked>Бензин</label>
+                <label><input type="radio" name="f">Дизель</label>
+                <label><input type="radio" name="f">Газ</label>
+                <label><input type="radio" name="f">Електро</label>
+                <label><input type="radio" name="f">Гібрид</label>
+                <label><input type="radio" name="f">Інше</label>
+            </p>
+            <p><b>Тип коробки передач</b></p>
+            <p>
+                <label><input type="radio" name="b">Механіка</label>
+                <label><input type="radio" name="b">Автомат</label>
+            </p>
+            <p><b>Колір</b></p>
+            <p>
+                <label><input type="checkbox" name="col" checked>Червоний</label>
+                <label><input type="checkbox" name="col">Білий</label>
+                <label><input type="checkbox" name="col">Синій</label>
+                <label><input type="checkbox" name="col">Чорний</label>
+                <label><input type="checkbox" name="col">Сірий</label>
+                <label><input type="checkbox" name="col">Зелений</label>
+            </p>
+            <p><b>Комфорт</b></p>
+            <p>
+                <label><input type="checkbox" name="com" checked>Люк</label>
+                <label><input type="checkbox" name="com">Шкіряний салон</label>
+                <label><input type="checkbox" name="com">Кондиціонер</label>
+                <label><input type="checkbox" name="com">Камера заднього виду</label>
+                <label><input type="checkbox" name="com">Тюнінг</label>
+                <label><input type="checkbox" name="com">Пам'ять сидінь</label>
+            </p>
+        </fieldset>
+        <p>
+            <input type="reset" value="Скинути фільтри">
+            <input type="submit" value="Пошук">
+        </p>
+    </form>
 </body>
 </html>
